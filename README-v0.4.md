@@ -15,3 +15,7 @@
 
 ## Проверка
 Проверен синтаксис `game.js`, наличие всех фоновых файлов, персонажей, предметов и кадров. Сквозное тестирование в реальном браузере не проводилось.
+
+
+### v0.4.1 — Fixed flickering animation
+Rebuilt all five 8-frame idle sheets. The v0.4 sheets contained only frame 1, with frames 2-8 completely transparent. New sheets contain visible character in every frame, subtly varying pose/position. Updated animation duration to 2s. All game mechanics and localStorage save keys unchanged.

@@ -14,7 +14,7 @@
 @media(max-width:700px){.npc-character{height:39%;right:3%;bottom:5%}.booba-character{height:44%;right:7%;bottom:5%}.item-art{width:30px;height:30px}}
 
 /* v0.4: frame-based clay idle sprite atlases */
-.clay-anim{height:100%;width:100%;background-repeat:no-repeat;background-size:800% 100%;background-position:0 0;animation:clay-idle 1.6s steps(8) infinite;transform-origin:bottom center}
+.clay-anim{height:100%;width:100%;background-repeat:no-repeat;background-size:800% 100%;background-position:0 0;animation:clay-idle 2s steps(8, end) infinite;transform-origin:bottom center}
 .idle-captain{background-image:url('assets/animations/captain-idle.png')}
 .idle-booba{background-image:url('assets/animations/booba-idle.png')}
 .idle-maria{background-image:url('assets/animations/maria-idle.png')}
