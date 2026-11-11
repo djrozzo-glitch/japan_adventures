@@ -12,3 +12,20 @@
 .booba-character{position:absolute;right:15%;bottom:7%;height:52%;width:36%;z-index:4;pointer-events:none;filter:drop-shadow(0 15px 16px #17232d90)}
 .booba-character.hidden-fox{display:none}
 @media(max-width:700px){.npc-character{height:39%;right:3%;bottom:5%}.booba-character{height:44%;right:7%;bottom:5%}.item-art{width:30px;height:30px}}
+
+/* v0.4: frame-based clay idle sprite atlases */
+.clay-anim{height:100%;width:100%;background-repeat:no-repeat;background-size:800% 100%;background-position:0 0;animation:clay-idle 1.6s steps(8) infinite;transform-origin:bottom center}
+.idle-captain{background-image:url('assets/animations/captain-idle.png')}
+.idle-booba{background-image:url('assets/animations/booba-idle.png')}
+.idle-maria{background-image:url('assets/animations/maria-idle.png')}
+.idle-pawnbroker{background-image:url('assets/animations/pawnbroker-idle.png')}
+.idle-shiba{background-image:url('assets/animations/shiba-idle.png')}
+@keyframes clay-idle{to{background-position:100% 0}}
+.fox-character{animation:none;z-index:2}
+.npc-character{z-index:2}
+.booba-character{z-index:2}
+.hotspot{border:1px solid #fbd49e99;background:#efb76f22;z-index:6;box-shadow:0 0 14px #efb76f24}
+.hotspot img{position:absolute;max-width:82%;max-height:75%;top:2%;object-fit:contain;filter:drop-shadow(0 4px 7px #1117)}
+.hotspot span{z-index:2;position:absolute;bottom:-10px}
+.lighthouse-hotspot{background:linear-gradient(180deg,#ffdd9a12,#fff2bf2e);border-color:#ffe7b28a}
+@media(prefers-reduced-motion:reduce){.clay-anim{animation:none!important}.fox-character{animation:none!important}}

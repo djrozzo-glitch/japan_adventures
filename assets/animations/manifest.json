@@ -1,0 +1,47 @@
+{
+  "captain": {
+    "file": "assets/animations/captain-idle.png",
+    "frameWidth": 256,
+    "frameHeight": 320,
+    "frames": 8,
+    "fps": 5,
+    "loop": true,
+    "motion": "subtle idle/breathing; not an independent walking cycle"
+  },
+  "booba": {
+    "file": "assets/animations/booba-idle.png",
+    "frameWidth": 256,
+    "frameHeight": 320,
+    "frames": 8,
+    "fps": 5,
+    "loop": true,
+    "motion": "subtle idle/breathing; not an independent walking cycle"
+  },
+  "maria": {
+    "file": "assets/animations/maria-idle.png",
+    "frameWidth": 256,
+    "frameHeight": 320,
+    "frames": 8,
+    "fps": 5,
+    "loop": true,
+    "motion": "subtle idle/breathing; not an independent walking cycle"
+  },
+  "pawnbroker": {
+    "file": "assets/animations/pawnbroker-idle.png",
+    "frameWidth": 256,
+    "frameHeight": 320,
+    "frames": 8,
+    "fps": 5,
+    "loop": true,
+    "motion": "subtle idle/breathing; not an independent walking cycle"
+  },
+  "shiba": {
+    "file": "assets/animations/shiba-idle.png",
+    "frameWidth": 256,
+    "frameHeight": 320,
+    "frames": 8,
+    "fps": 5,
+    "loop": true,
+    "motion": "subtle idle/breathing; not an independent walking cycle"
+  }
+}

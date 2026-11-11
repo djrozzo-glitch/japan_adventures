@@ -1,42 +1,101 @@
 {
-  "name": "Captain: Japan Adventures — Art Pack",
-  "version": "0.2",
+  "name": "Captain: Japan Adventures — Clay Art Pack",
+  "version": "0.4-clay",
   "game_engine": "Vanilla JS, HTML, CSS",
   "backgrounds": [
-    "beach.webp",
-    "booba.webp",
-    "cctv.webp",
-    "ending.webp",
     "hotel.webp",
-    "lighthouse.webp",
-    "market.webp",
-    "pawn.webp",
     "port.webp",
-    "ship.webp"
+    "pawn.webp",
+    "ship.webp",
+    "cctv.webp",
+    "market.webp",
+    "beach.webp",
+    "lighthouse.webp",
+    "booba.webp",
+    "ending.webp"
   ],
   "characters": [
-    "booba.svg",
-    "captain.svg",
-    "maria.svg",
-    "pawnbroker.svg",
-    "shiba.svg"
+    "booba.png",
+    "captain.png",
+    "maria.png",
+    "pawnbroker.png",
+    "shiba.png"
   ],
   "items": [
-    "camera.svg",
-    "candy.svg",
-    "flag.svg",
-    "jelly.svg",
-    "key.svg",
-    "lighthouse.svg",
-    "mango.svg",
-    "monitor.svg",
-    "note.svg",
-    "sneakers.svg",
-    "suitcase.svg"
+    "bento.png",
+    "camera.png",
+    "candle.png",
+    "candy.png",
+    "flag.png",
+    "jelly.png",
+    "key.png",
+    "lighthouse.png",
+    "mango.png",
+    "monitor.png",
+    "note.png",
+    "sneakers.png",
+    "suitcase.png"
   ],
   "ui": [
     "badge.svg",
     "pointer.svg",
     "sparkle.svg"
-  ]
+  ],
+  "sprite_sheets": [
+    "characters-sheet.png",
+    "items-sheet.png",
+    "backgrounds-contact-sheet.jpg"
+  ],
+  "sprite_sheet_meta": [
+    "characters-sheet.json",
+    "items-sheet.json",
+    "backgrounds-contact-sheet.json"
+  ],
+  "animations": {
+    "captain": {
+      "file": "assets/animations/captain-idle.png",
+      "frameWidth": 256,
+      "frameHeight": 320,
+      "frames": 8,
+      "fps": 5,
+      "loop": true,
+      "motion": "subtle idle/breathing; not an independent walking cycle"
+    },
+    "booba": {
+      "file": "assets/animations/booba-idle.png",
+      "frameWidth": 256,
+      "frameHeight": 320,
+      "frames": 8,
+      "fps": 5,
+      "loop": true,
+      "motion": "subtle idle/breathing; not an independent walking cycle"
+    },
+    "maria": {
+      "file": "assets/animations/maria-idle.png",
+      "frameWidth": 256,
+      "frameHeight": 320,
+      "frames": 8,
+      "fps": 5,
+      "loop": true,
+      "motion": "subtle idle/breathing; not an independent walking cycle"
+    },
+    "pawnbroker": {
+      "file": "assets/animations/pawnbroker-idle.png",
+      "frameWidth": 256,
+      "frameHeight": 320,
+      "frames": 8,
+      "fps": 5,
+      "loop": true,
+      "motion": "subtle idle/breathing; not an independent walking cycle"
+    },
+    "shiba": {
+      "file": "assets/animations/shiba-idle.png",
+      "frameWidth": 256,
+      "frameHeight": 320,
+      "frames": 8,
+      "fps": 5,
+      "loop": true,
+      "motion": "subtle idle/breathing; not an independent walking cycle"
+    }
+  }
 }

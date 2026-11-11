@@ -12,3 +12,11 @@
 Игра запускается через `index.html`. Существующее сохранение `captain-japan-quest-v1` не сбрасывается.
 
 **Важно:** этот пакет — стилизованный SVG-арт и первый интегрированный графический проход; он не является полностью покадрово анимированным профессиональным арт-паком. Для финального релиза потребуется отдельная отрисовка высокодетализированных сцен, эмоций, покадровых анимаций и проверка интерфейса на разных устройствах.
+
+
+## v0.3 clay integration
+- Characters switched to PNG clay renders.
+- Key backgrounds replaced with clay-style scenes (hotel, port/pawn, market, lighthouse/booba/ending).
+- Inventory items sneakers, jelly, note, mango, suitcase re-sliced from a shared props sheet.
+- Added sprite containers for NPC and Buba in `index.html`.
+- Added atlases in `assets/sheets/`.
