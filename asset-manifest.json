@@ -1,6 +1,6 @@
 {
   "name": "Captain: Japan Adventures — Clay Art Pack",
-  "version": "0.4.4",
+  "version": "0.5",
   "game_engine": "Vanilla JS, HTML, CSS",
   "backgrounds": [
     "hotel.webp",
@@ -103,5 +103,12 @@
     "Updated index.html to style.css?v=044 and game.js?v=044",
     "Added ASSET_V constant in game.js",
     "Added cache-busting query strings to backgrounds, character PNGs, and item PNGs"
+  ],
+  "qa_changes": [
+    "4:3 game scene aligns backgrounds with hotspots",
+    "camera and lighthouse hit targets repositioned",
+    "Captain visible in ending with Buba",
+    "sprite positioning and mobile layout tuned",
+    "versioned URLs force newly deployed art refresh"
   ]
 }
