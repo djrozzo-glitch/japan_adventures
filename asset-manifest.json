@@ -1,6 +1,6 @@
 {
   "name": "Captain: Japan Adventures — Clay Art Pack",
-  "version": "0.5",
+  "version": "0.5.1",
   "game_engine": "Vanilla JS, HTML, CSS",
   "backgrounds": [
     "hotel.webp",
@@ -110,5 +110,12 @@
     "Captain visible in ending with Buba",
     "sprite positioning and mobile layout tuned",
     "versioned URLs force newly deployed art refresh"
+  ],
+  "new_interactive_props": [
+    "camera",
+    "candy",
+    "flag",
+    "key",
+    "lighthouse"
   ]
 }
