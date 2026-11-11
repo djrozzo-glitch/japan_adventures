@@ -1,29 +1,11 @@
-# Капитан: Приключения в Японии — v0.4 Clay Edition
+# Captain: Japan Adventures v0.4.4
 
-Распакуйте архив в корень репозитория GitHub Pages так, чтобы `index.html`, `game.js`, `style.css` и папка `assets/` лежали рядом. Игра полностью клиентская и работает без сборщика.
+Code update after reintegrating final backgrounds.
 
-## Изменения
-- Все 10 фоновых игровых состояний подключены к изображениям в пластилиновом стиле.
-- Новые отдельные изображения корабля, ломбарда, камеры и пляжа подготовлены из коллажа сгенерированных иллюстраций. Из-за источника детализация этих 4 фонов ниже, чем у остальных.
-- Все персонажи подключены как PNG; добавлены 8-кадровые idle-спрайтшиты в `assets/animations/` (простое покачивание и дыхание, не анимации ходьбы или речи).
-- Визуально обозначены интерактивные кроссовки, камера и маяк.
-- Все сюжетные этапы, диалоги, инвентарь и ключ `localStorage` из предыдущих версий оставлены без изменения.
-- Отдельные PNG предметов и атласы из v0.3 доступны в `assets/items/` и `assets/sheets/`.
+What changed:
+- index.html now loads style.css?v=044 and game.js?v=044
+- game.js adds ASSET_V for asset cache busting
+- background, character, and item image URLs now append ?v=044
 
-## Ограничения
-Пластилиновая стилистика единая, но четыре новых фона — вырезки из общего сгенерированного листа, поэтому пригодны для прототипа, а не финального production-art. Анимация ограничена простыми idle-циклами; полноценные ходьба, разговор и смена эмоций требуют дополнительного покадрового арта.
-
-## Проверка
-Проверен синтаксис `game.js`, наличие всех фоновых файлов, персонажей, предметов и кадров. Сквозное тестирование в реальном браузере не проводилось.
-
-
-### v0.4.1 — Fixed flickering animation
-Rebuilt all five 8-frame idle sheets. The v0.4 sheets contained only frame 1, with frames 2-8 completely transparent. New sheets contain visible character in every frame, subtly varying pose/position. Updated animation duration to 2s. All game mechanics and localStorage save keys unchanged.
-
-
-### v0.4.2 — исправление анимации
-- Удалена прокрутка 8-кадрового атласа как CSS-фона, которая показывала соседние копии персонажей.
-- Анимация ожидания теперь использует отдельные PNG и небольшое изменение масштаба с привязкой к лапам. Персонажи не перемещаются по горизонтали.
-- Добавлено отключение анимации при `prefers-reduced-motion`.
-- Добавлен cache busting для `style.css` и `game.js`.
-- Сюжет и ключ localStorage не изменены.
+Purpose:
+- force browsers and GitHub Pages clients to fetch the new final background images instead of cached older versions.

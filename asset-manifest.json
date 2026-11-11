@@ -1,6 +1,6 @@
 {
   "name": "Captain: Japan Adventures — Clay Art Pack",
-  "version": "0.4-clay",
+  "version": "0.4.4",
   "game_engine": "Vanilla JS, HTML, CSS",
   "backgrounds": [
     "hotel.webp",
@@ -97,5 +97,11 @@
       "loop": true,
       "motion": "subtle idle/breathing; not an independent walking cycle"
     }
-  }
+  },
+  "notes": "Redrawn final clay backgrounds for beach, ship, pawn, and cctv integrated.",
+  "code_changes": [
+    "Updated index.html to style.css?v=044 and game.js?v=044",
+    "Added ASSET_V constant in game.js",
+    "Added cache-busting query strings to backgrounds, character PNGs, and item PNGs"
+  ]
 }
