@@ -1,0 +1,42 @@
+{
+  "name": "Captain: Japan Adventures — Art Pack",
+  "version": "0.2",
+  "game_engine": "Vanilla JS, HTML, CSS",
+  "backgrounds": [
+    "beach.webp",
+    "booba.webp",
+    "cctv.webp",
+    "ending.webp",
+    "hotel.webp",
+    "lighthouse.webp",
+    "market.webp",
+    "pawn.webp",
+    "port.webp",
+    "ship.webp"
+  ],
+  "characters": [
+    "booba.svg",
+    "captain.svg",
+    "maria.svg",
+    "pawnbroker.svg",
+    "shiba.svg"
+  ],
+  "items": [
+    "camera.svg",
+    "candy.svg",
+    "flag.svg",
+    "jelly.svg",
+    "key.svg",
+    "lighthouse.svg",
+    "mango.svg",
+    "monitor.svg",
+    "note.svg",
+    "sneakers.svg",
+    "suitcase.svg"
+  ],
+  "ui": [
+    "badge.svg",
+    "pointer.svg",
+    "sparkle.svg"
+  ]
+}
