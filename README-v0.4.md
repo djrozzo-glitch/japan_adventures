@@ -19,3 +19,11 @@
 
 ### v0.4.1 — Fixed flickering animation
 Rebuilt all five 8-frame idle sheets. The v0.4 sheets contained only frame 1, with frames 2-8 completely transparent. New sheets contain visible character in every frame, subtly varying pose/position. Updated animation duration to 2s. All game mechanics and localStorage save keys unchanged.
+
+
+### v0.4.2 — исправление анимации
+- Удалена прокрутка 8-кадрового атласа как CSS-фона, которая показывала соседние копии персонажей.
+- Анимация ожидания теперь использует отдельные PNG и небольшое изменение масштаба с привязкой к лапам. Персонажи не перемещаются по горизонтали.
+- Добавлено отключение анимации при `prefers-reduced-motion`.
+- Добавлен cache busting для `style.css` и `game.js`.
+- Сюжет и ключ localStorage не изменены.
